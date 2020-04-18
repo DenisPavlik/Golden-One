@@ -1,0 +1,266 @@
+@media(max-width:1200px){
+  .main-text span{
+    font-size: 35px;
+  }
+  .main-text h1{
+    font-size: 62px;
+  }
+}
+@media(max-width:992px){
+  .container{
+    max-width: 860px;
+    padding: 0 10px;
+  }
+  .header {
+    margin-bottom: 250px;
+  }
+  .main-text span{
+    font-size: 25px;
+  }
+  .main-text h1{
+    font-size: 50px;
+  }
+  
+}
+@media(max-width:768px){
+  .visible-lg{
+    display: none;
+  }
+  .m-menu-link{
+    display: block;
+  }
+  .container{
+    max-width: 650px;
+    padding: 0 10px;
+    width: 100%;
+  }
+  .main{
+    height: 100%;
+  }
+  .main-text span{
+    font-size: 20px;
+  }
+  .main-text h1{
+    font-size: 35px;
+  }
+  .main-text button{
+    font-size: 12px;
+  }
+  .button-more{
+    width: 180px;
+    height: 45px;
+  }
+  .card{
+    flex-basis: 48%;
+  }
+  .card img{
+    width: 100%;
+  }
+  .logos-position{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 500px;
+  }
+  .logos-position img{
+    padding: 5px;
+    width: 50%;
+    flex-basis: 45%;
+  }
+  .avatar{
+    height: 160px;
+    width: 160px;
+  }
+}
+@media(max-width:650px){
+  .close-menu{
+    right: 4rem;
+  }
+  .container{
+    max-width: 480px;
+  }
+  .header{
+    margin-bottom: 160px;
+  }
+  .title{
+    margin-bottom: 50px;
+  }
+  .title h2{
+    font-size: 28px;
+  }
+  .title p{
+    font-size: 12px;
+  }
+  .block-title{
+    font-size: 14px;
+    padding: 15px;
+  }
+  .block-content{
+    font-size: 11px;
+  }
+  .info-date, .info-name{
+    font-size: 14px;
+  }
+  .info-about{
+    font-size: 10px;
+  }
+  .even{
+    margin-left: 33px;
+  }
+  .odd{
+    margin-right: 33px;
+  }
+  .event{
+    margin-bottom: 50px;
+  }
+  .event img{
+    width: 100px;
+    height: 100px;
+  }
+  .last-event{
+    width: 100px;
+    height: 100px;
+    font-size: 11px;
+    border-width: 4px;
+  }
+  .avatar{
+    height: 120px;
+    width: 120px;
+  }
+  .team-name{
+    font-size: 14px;
+  }
+  .team-proffesion{
+    font-size: 14px;
+  }
+  .end-text{
+    font-size: 12px;
+  }
+  .logos-position{
+    width: 400px;
+  }
+  .button-message{
+    width: 200px;
+    height: 55px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100px;
+  }
+  .footer-images img{
+    padding: 3px;
+    width: 40%;
+  }
+}
+@media(max-width:480px){
+  .close-menu{
+    right: 3rem;
+  }
+  .container{
+    max-width: 360px;
+  }
+  .main-text span{
+    font-size: 16px;
+  }
+  .main-text h1{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  .blocks{
+    flex-direction: column;
+  }
+  .block{
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  .card{
+    flex-basis: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .event-info{
+    width: 200px;
+  }
+  .avatar{
+    height: 80px;
+    width: 80px;
+  }
+  .team-cards{
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .team-card{
+    margin-bottom: 30px;
+  }
+  .avatar{
+    height: 140px;
+    width: 140px;
+  }
+  .logos-position{
+    width: 300px;
+    margin-bottom: 10px;
+  }
+}
+@media(max-width:360px){
+  .close-menu{
+    right: 2rem;
+  }
+  .container{
+    max-width:310px;
+  }
+  .title h2{
+    font-size: 18px;
+  }
+  .title p{
+    font-size: 10px;
+  }
+  .event{
+    flex-direction: column;
+    width: 100%;
+  }
+  .event-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .info-about{
+    text-align: justify;
+  }
+  .logos-position{
+    flex-direction: column;
+    width: 200px;
+  }
+  .forms{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 40px;
+  }
+  .forms-info, .form-message{
+    width: 90%;
+  }
+  .forms-info{
+    padding-bottom: 25px;
+  }
+  .button-message{
+    width: 70%;
+  }
+  .footer-position{
+    flex-direction: column;
+  }
+  .footer-info{
+    padding: 0;
+    text-align: center;
+  }
+}
